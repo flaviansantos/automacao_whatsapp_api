@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Api_BotWhatsApp.Api/.vs/Api_BotWhatsApp.Api
+/Api_BotWhatsApp.Api/bin/Debug/net8.0
+/Api_BotWhatsApp.Api/obj
