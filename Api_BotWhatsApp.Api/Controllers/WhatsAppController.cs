@@ -19,24 +19,9 @@ namespace Api_BotWhatsApp.Api.Controllers
         {
             List<Model.MensagensWhatsApp> list =
             [
-                new MensagensWhatsApp
-                {
-                    nome = "Bruno Lucas",
-                    telefone = "5519999999999",
-                    mensagem = "Sr. Bruno, o vencimento da sua fatura é 11/12/2023."
-                },
-                new MensagensWhatsApp
-                {
-                    nome = "Flávia Neves",
-                    telefone = "5519999999999",
-                    mensagem = "Sra. Flávia, o vencimento da sua fatura é 15/12/2023."
-                },
-                new MensagensWhatsApp
-                {
-                    nome = "Diogo Brandão",
-                    telefone = "5519999999999",
-                    mensagem = "Sr. Diogo, o vencimento da sua fatura é 15/12/2023."
-                },
+                new MensagensWhatsApp("Bruno Lucas", "5519999999999", "Sr. Bruno, o vencimento da sua fatura é 11/12/2023."),
+                new MensagensWhatsApp("Flávia Neves", "5519999999999", "Sra. Flávia, o vencimento da sua fatura é 15/12/2023."),
+                new MensagensWhatsApp("Diogo Brandão", "5519999999999", "Sr. Diogo, o vencimento da sua fatura é 15/12/2023.")
             ];
 
             return new JsonResult(list);
